@@ -1,0 +1,80 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.25 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "VC" 
+        xmin = 0 
+        xmax = 6.25 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.239374575791856 
+            text = "" 
+        intervals [2]:
+            xmin = 5.239374575791856 
+            xmax = 5.299672619047619 
+            text = "i" 
+        intervals [3]:
+            xmin = 5.299672619047619 
+            xmax = 6.25 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "POA" 
+        xmin = 0 
+        xmax = 6.25 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.299672619047619 
+            text = "" 
+        intervals [2]:
+            xmin = 5.299672619047619 
+            xmax = 5.411448729108636 
+            text = "D" 
+        intervals [3]:
+            xmin = 5.411448729108636 
+            xmax = 6.25 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MOA" 
+        xmin = 0 
+        xmax = 6.25 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.299672619047619 
+            text = "" 
+        intervals [2]:
+            xmin = 5.299672619047619 
+            xmax = 5.411448729108636 
+            text = "VAS" 
+        intervals [3]:
+            xmin = 5.411448729108636 
+            xmax = 6.25 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "CV" 
+        xmin = 0 
+        xmax = 6.25 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.411448729108636 
+            text = "" 
+        intervals [2]:
+            xmin = 5.411448729108636 
+            xmax = 5.552163661858975 
+            text = "a" 
+        intervals [3]:
+            xmin = 5.552163661858975 
+            xmax = 6.25 
+            text = "" 

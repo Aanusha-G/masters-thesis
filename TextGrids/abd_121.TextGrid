@@ -1,0 +1,80 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.0625 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "VC" 
+        xmin = 0 
+        xmax = 4.0625 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.1286779965753424 
+            text = "" 
+        intervals [2]:
+            xmin = 3.1286779965753424 
+            xmax = 3.1755711596385545 
+            text = "u" 
+        intervals [3]:
+            xmin = 3.1755711596385545 
+            xmax = 4.0625 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "POA" 
+        xmin = 0 
+        xmax = 4.0625 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.1755711596385545 
+            text = "" 
+        intervals [2]:
+            xmin = 3.1755711596385545 
+            xmax = 3.300155257936508 
+            text = "D" 
+        intervals [3]:
+            xmin = 3.300155257936508 
+            xmax = 4.0625 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MOA" 
+        xmin = 0 
+        xmax = 4.0625 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.1755711596385545 
+            text = "" 
+        intervals [2]:
+            xmin = 3.1755711596385545 
+            xmax = 3.300155257936508 
+            text = "VAS" 
+        intervals [3]:
+            xmin = 3.300155257936508 
+            xmax = 4.0625 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "CV" 
+        xmin = 0 
+        xmax = 4.0625 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.300155257936508 
+            text = "" 
+        intervals [2]:
+            xmin = 3.300155257936508 
+            xmax = 3.409680522983115 
+            text = "o" 
+        intervals [3]:
+            xmin = 3.409680522983115 
+            xmax = 4.0625 
+            text = "" 

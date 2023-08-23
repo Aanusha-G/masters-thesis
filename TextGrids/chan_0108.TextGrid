@@ -1,0 +1,164 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.6875 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "VC" 
+        xmin = 0 
+        xmax = 6.6875 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9761433486238533 
+            text = "" 
+        intervals [2]:
+            xmin = 0.9761433486238533 
+            xmax = 1.090309799382716 
+            text = "o" 
+        intervals [3]:
+            xmin = 1.090309799382716 
+            xmax = 2.2667533028455287 
+            text = "" 
+        intervals [4]:
+            xmin = 2.2667533028455287 
+            xmax = 2.3444051339285714 
+            text = "i" 
+        intervals [5]:
+            xmin = 2.3444051339285714 
+            xmax = 6.6875 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "POA" 
+        xmin = 0 
+        xmax = 6.6875 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.090309799382716 
+            text = "" 
+        intervals [2]:
+            xmin = 1.090309799382716 
+            xmax = 1.22821875 
+            text = "V" 
+        intervals [3]:
+            xmin = 1.22821875 
+            xmax = 2.3444051339285714 
+            text = "" 
+        intervals [4]:
+            xmin = 2.3444051339285714 
+            xmax = 2.4102077205882355 
+            text = "D" 
+        intervals [5]:
+            xmin = 2.4102077205882355 
+            xmax = 6.6875 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MOA" 
+        xmin = 0 
+        xmax = 6.6875 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.090309799382716 
+            text = "" 
+        intervals [2]:
+            xmin = 1.090309799382716 
+            xmax = 1.22821875 
+            text = "VS" 
+        intervals [3]:
+            xmin = 1.22821875 
+            xmax = 2.3444051339285714 
+            text = "" 
+        intervals [4]:
+            xmin = 2.3444051339285714 
+            xmax = 2.4102077205882355 
+            text = "VLS_N" 
+        intervals [5]:
+            xmin = 2.4102077205882355 
+            xmax = 6.6875 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "burst" 
+        xmin = 0 
+        xmax = 6.6875 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.22821875 
+            text = "" 
+        intervals [2]:
+            xmin = 1.22821875 
+            xmax = 1.2582637007389164 
+            text = "B" 
+        intervals [3]:
+            xmin = 1.2582637007389164 
+            xmax = 2.4102077205882355 
+            text = "" 
+        intervals [4]:
+            xmin = 2.4102077205882355 
+            xmax = 2.423730299803408 
+            text = "B" 
+        intervals [5]:
+            xmin = 2.423730299803408 
+            xmax = 6.6875 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "CV" 
+        xmin = 0 
+        xmax = 6.6875 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2582637007389164 
+            text = "" 
+        intervals [2]:
+            xmin = 1.2582637007389164 
+            xmax = 1.3451373820754717 
+            text = "o" 
+        intervals [3]:
+            xmin = 1.3451373820754717 
+            xmax = 2.423730299803408 
+            text = "" 
+        intervals [4]:
+            xmin = 2.423730299803408 
+            xmax = 2.498620065789474 
+            text = "a" 
+        intervals [5]:
+            xmin = 2.498620065789474 
+            xmax = 6.6875 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 6.6875 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.82696875 
+            text = "" 
+        intervals [2]:
+            xmin = 0.82696875 
+            xmax = 1.3451373820754717 
+            text = "joggo" 
+        intervals [3]:
+            xmin = 1.3451373820754717 
+            xmax = 1.8133229166666667 
+            text = "" 
+        intervals [4]:
+            xmin = 1.8133229166666667 
+            xmax = 2.498620065789474 
+            text = "shOhojogita" 
+        intervals [5]:
+            xmin = 2.498620065789474 
+            xmax = 6.6875 
+            text = "" 

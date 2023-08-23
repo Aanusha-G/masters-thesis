@@ -1,0 +1,164 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.3894375 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "VC" 
+        xmin = 0 
+        xmax = 5.3894375 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.448949420508945 
+            text = "" 
+        intervals [2]:
+            xmin = 4.448949420508945 
+            xmax = 4.493848730079681 
+            text = "a" 
+        intervals [3]:
+            xmin = 4.493848730079681 
+            xmax = 4.76283135384216 
+            text = "" 
+        intervals [4]:
+            xmin = 4.76283135384216 
+            xmax = 4.8413955772962485 
+            text = "a" 
+        intervals [5]:
+            xmin = 4.8413955772962485 
+            xmax = 5.3894375 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "POA" 
+        xmin = 0 
+        xmax = 5.3894375 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.493848730079681 
+            text = "" 
+        intervals [2]:
+            xmin = 4.493848730079681 
+            xmax = 4.6209991071428576 
+            text = "BL" 
+        intervals [3]:
+            xmin = 4.6209991071428576 
+            xmax = 4.8413955772962485 
+            text = "" 
+        intervals [4]:
+            xmin = 4.8413955772962485 
+            xmax = 4.984981634615385 
+            text = "BL" 
+        intervals [5]:
+            xmin = 4.984981634615385 
+            xmax = 5.3894375 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MOA" 
+        xmin = 0 
+        xmax = 5.3894375 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.493848730079681 
+            text = "" 
+        intervals [2]:
+            xmin = 4.493848730079681 
+            xmax = 4.6209991071428576 
+            text = "VS" 
+        intervals [3]:
+            xmin = 4.6209991071428576 
+            xmax = 4.8413955772962485 
+            text = "" 
+        intervals [4]:
+            xmin = 4.8413955772962485 
+            xmax = 4.984981634615385 
+            text = "VS" 
+        intervals [5]:
+            xmin = 4.984981634615385 
+            xmax = 5.3894375 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "burst" 
+        xmin = 0 
+        xmax = 5.3894375 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.6209991071428576 
+            text = "" 
+        intervals [2]:
+            xmin = 4.6209991071428576 
+            xmax = 4.62980266802068 
+            text = "B" 
+        intervals [3]:
+            xmin = 4.62980266802068 
+            xmax = 4.984981634615385 
+            text = "" 
+        intervals [4]:
+            xmin = 4.984981634615385 
+            xmax = 4.995271204075776 
+            text = "B" 
+        intervals [5]:
+            xmin = 4.995271204075776 
+            xmax = 5.3894375 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "CV" 
+        xmin = 0 
+        xmax = 5.3894375 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.62980266802068 
+            text = "" 
+        intervals [2]:
+            xmin = 4.62980266802068 
+            xmax = 4.6781729593287835 
+            text = "a" 
+        intervals [3]:
+            xmin = 4.6781729593287835 
+            xmax = 4.995271204075776 
+            text = "" 
+        intervals [4]:
+            xmin = 4.995271204075776 
+            xmax = 5.106728679906543 
+            text = "a" 
+        intervals [5]:
+            xmin = 5.106728679906543 
+            xmax = 5.3894375 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 5.3894375 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.337478794642857 
+            text = "" 
+        intervals [2]:
+            xmin = 4.337478794642857 
+            xmax = 4.6781729593287835 
+            text = "khabba" 
+        intervals [3]:
+            xmin = 4.6781729593287835 
+            xmax = 4.690671351674641 
+            text = "" 
+        intervals [4]:
+            xmin = 4.690671351674641 
+            xmax = 5.106728679906543 
+            text = "Dabba" 
+        intervals [5]:
+            xmin = 5.106728679906543 
+            xmax = 5.3894375 
+            text = "" 

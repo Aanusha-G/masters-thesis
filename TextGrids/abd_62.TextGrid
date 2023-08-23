@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.9375 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "VC" 
+        xmin = 0 
+        xmax = 4.9375 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.985275854316547 
+            text = " " 
+        intervals [2]:
+            xmin = 2.985275854316547 
+            xmax = 3.0534787500000005 
+            text = "i" 
+        intervals [3]:
+            xmin = 3.0534787500000005 
+            xmax = 4.9375 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "POA" 
+        xmin = 0 
+        xmax = 4.9375 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.0534787500000005 
+            text = "" 
+        intervals [2]:
+            xmin = 3.0534787500000005 
+            xmax = 3.1802187500000003 
+            text = "D" 
+        intervals [3]:
+            xmin = 3.1802187500000003 
+            xmax = 3.203643654942966 
+            text = "" 
+        intervals [4]:
+            xmin = 3.203643654942966 
+            xmax = 4.9375 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MOA" 
+        xmin = 0 
+        xmax = 4.9375 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.0534787500000005 
+            text = "" 
+        intervals [2]:
+            xmin = 3.0534787500000005 
+            xmax = 3.1802187500000003 
+            text = "VAS" 
+        intervals [3]:
+            xmin = 3.1802187500000003 
+            xmax = 3.203643654942966 
+            text = "" 
+        intervals [4]:
+            xmin = 3.203643654942966 
+            xmax = 4.9375 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "CV" 
+        xmin = 0 
+        xmax = 4.9375 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.1802187500000003 
+            text = "" 
+        intervals [2]:
+            xmin = 3.1802187500000003 
+            xmax = 3.203643654942966 
+            text = "" 
+        intervals [3]:
+            xmin = 3.203643654942966 
+            xmax = 3.380059027777778 
+            text = "o" 
+        intervals [4]:
+            xmin = 3.380059027777778 
+            xmax = 4.9375 
+            text = "" 

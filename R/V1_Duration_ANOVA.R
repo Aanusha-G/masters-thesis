@@ -1,0 +1,36 @@
+primary_data <- read.delim("C:/Users/La Alquimista/Dropbox/Ghosh_MA_Thesis/Data/analysis_new.txt", stringsAsFactors=F)
+View(primary_data)
+attach(primary_data)
+n= length(primary_data$File)
+MOA = primary_data$MOA
+#POA = primary_data$POA
+POA<-factor(POA)
+#Vowel.Type <- factor(Vowel.Type)
+sing=vector(mode="logical", length=0)
+voiced =vector(mode="logical", length=0)
+levels=c("BL","D","R","V")
+v1_data=vector(mode="double",length=0)
+poa_data=vector(mode="character",length=0)
+for (i in 1:n){
+  s= grepl("_", MOA[i])
+  v = grepl("VS",MOA[i])
+  sing=append(sing,s,after=length(sing))
+  voiced=append(voiced,v,after=length(voiced))
+  v1_data=append(v1_data,V1.Dur[i],after=length(v1_data))
+  poa_data=append(poa_data,POA[i],after=length(poa_data))
+}
+data<-data.frame(V1_Dur=v1_data, singleton=sing, poa =poa_data, voicing=voiced)
+aov = aov(V1_Dur~singleton*poa*voicing,data=data)
+summary(aov)
+
+
+singleton<-factor(sing)
+poa<-factor(POA)
+voicing<-factor(voiced)
+data<-data.frame(V1.Dur, singleton,poa, voicing)
+fit = aov(V1.Dur~singleton*poa*voicing,data=data)
+summary(fit)
+xxx = aov(V1.Dur~singleton+poa*voicing,data=data)
+summary(xxx)
+TukeyHSD(xxx)
+TukeyHSD(xxx,"poa:voicing")

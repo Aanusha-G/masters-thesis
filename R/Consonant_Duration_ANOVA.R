@@ -1,0 +1,22 @@
+primary_data <- read.delim("C:/Users/La Alquimista/Dropbox/Ghosh_MA_Thesis/Data/analysis_new.txt", stringsAsFactors=F)
+View(primary_data)
+attach(primary_data)
+n= length(primary_data$File)
+MOA = primary_data$MOA
+POA<-factor(POA)
+sing=vector(mode="logical", length=0)
+voiced =vector(mode="logical", length=0)
+levels=c("BL","D","R","V")
+consonant_data=vector(mode="double",length=0)
+poa_data=vector(mode="character",length=0)
+for (i in 1:n){
+  s= grepl("_", MOA[i])
+  v = grepl("VS",MOA[i])
+  sing=append(sing,s,after=length(sing))
+  voiced=append(voiced,v,after=length(voiced))
+  consonant_data=append(consonant_data,Consonant.Duration[i],after=length(consonant_data))
+  poa_data=append(poa_data,POA[i],after=length(poa_data))
+}
+data<-data.frame(consonant_Dur=consonant_data, singleton=sing, poa =poa_data, voicing=voiced)
+aov = aov(consonant_Dur~singleton*poa*voicing,data=data)
+summary(aov)

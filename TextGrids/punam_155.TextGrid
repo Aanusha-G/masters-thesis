@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.37475 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "VC" 
+        xmin = 0 
+        xmax = 4.37475 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.5554721354166667 
+            text = "" 
+        intervals [2]:
+            xmin = 2.5554721354166667 
+            xmax = 2.59571875 
+            text = "i" 
+        intervals [3]:
+            xmin = 2.59571875 
+            xmax = 4.37475 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "POA" 
+        xmin = 0 
+        xmax = 4.37475 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.59571875 
+            text = "" 
+        intervals [2]:
+            xmin = 2.59571875 
+            xmax = 2.7236638257575763 
+            text = "D" 
+        intervals [3]:
+            xmin = 2.7236638257575763 
+            xmax = 4.37475 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "MOA" 
+        xmin = 0 
+        xmax = 4.37475 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.59571875 
+            text = "" 
+        intervals [2]:
+            xmin = 2.59571875 
+            xmax = 2.7236638257575763 
+            text = "VLS" 
+        intervals [3]:
+            xmin = 2.7236638257575763 
+            xmax = 4.37475 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "burst" 
+        xmin = 0 
+        xmax = 4.37475 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.7236638257575763 
+            text = "" 
+        intervals [2]:
+            xmin = 2.7236638257575763 
+            xmax = 2.737464717741936 
+            text = "B" 
+        intervals [3]:
+            xmin = 2.737464717741936 
+            xmax = 4.37475 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "CV" 
+        xmin = 0 
+        xmax = 4.37475 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.737464717741936 
+            text = "" 
+        intervals [2]:
+            xmin = 2.737464717741936 
+            xmax = 2.8072303125 
+            text = "u" 
+        intervals [3]:
+            xmin = 2.8072303125 
+            xmax = 4.37475 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 4.37475 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.472630681818182 
+            text = "" 
+        intervals [2]:
+            xmin = 2.472630681818182 
+            xmax = 2.8072303125 
+            text = "mrittu" 
+        intervals [3]:
+            xmin = 2.8072303125 
+            xmax = 4.37475 
+            text = "" 
